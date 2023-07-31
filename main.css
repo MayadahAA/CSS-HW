@@ -21,7 +21,7 @@ html {
 }
 
 nav {
-  background-image: url(/imges/soup.jpg);
+  background-image: url(imges/soup.jpg);
   background-size: cover;
   height: 40vh;
   background-position: center;
