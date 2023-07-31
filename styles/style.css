@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/*Some necessary adjustments*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #3e3e3e;
+}
+
+nav {
+  background-image: url(/imges/soup.jpg);
+  background-size: cover;
+  height: 40vh;
+  background-position: center;
+  display: grid;
+  align-content: center;
+}
+.title {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  font-size: 2.4em;
+}
+.recipe {
+  margin: 9%;
+}
+ul {
+  list-style: none;
+}
+.mask2 {
+  -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 55%);
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+  width: 2em;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.icon {
+  width: 5vw;
+  height: 5vh;
+}
+.icon2{
+  width: 6vw;
+  height: 6vh;
+}
+.icons-group {
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.txt-icon {
+  font-size: 15px;
+  font-weight: 700;
+}
+.title2 {
+  font-size: 25px;
+  font-weight:500;
+}
+.line{
+  border-left: 1.5px solid #b2b2b2;
+  height: 3rem;
+}
+.center{
+  text-align: center;
+}
+.b-color{
+  color:  #b2b2b2;
+  padding-bottom: 10%;
+  font-weight: 500;
+}
+.inline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.di-list{
+  padding-left: 2%;
+}
+.di-list li{
+  margin: 0 0 7px 0;
+}
